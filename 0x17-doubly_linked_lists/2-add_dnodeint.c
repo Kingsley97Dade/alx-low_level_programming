@@ -8,7 +8,7 @@
  *
  * AUTHOR -Kingsley Dade
  */
-dlistint_t *add_dnodeint(dlistint_t **head, const int n);
+dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 {
 	/* create a new node */
 	dlistint_t *new_node;
